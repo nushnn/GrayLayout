@@ -1,0 +1,26 @@
+@font-face{
+    font-family:DejaVuSerif ;
+   src: url('../font/DejaVuSerif-Bold.ttf')format('ttf'),
+        url('../font/DejaVuSerif.ttf'),
+        url('../font/DejaVuSerifCondensed.ttf');
+            
+}
+body{
+    font-family:DejaVuSerif ;
+}
+
+
+i:hover{
+    color: rgb(165, 0, 0) !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: rgb(255, 255, 255);
+    background-color:#222831;
+}
+
+.form-control {
+    border: 0;
+    color: white;
+}
+
